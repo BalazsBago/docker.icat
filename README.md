@@ -50,6 +50,11 @@ Simple user is 'usera' and the password is 'passworda'.
 ### Fill up with dummy data
 Run the following script in the directory of the script with using pipenv. The Pipfile and
 the lock files are provided as well.  
+```shell
+pipenv sync
+pipenv shell
+python ingest_dummy_data.py
+```
 This script will fill up your database with some dummy data.   
 (1 facility, 3 investigations and 1 dataset per investigation)
 
